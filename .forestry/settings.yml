@@ -7,6 +7,13 @@ sections:
 - type: heading
   label: Content
 - type: directory
+  path: content/restaurants
+  label: Restaurants
+  create: all
+  match: "**/*"
+  templates:
+  - restaurant
+- type: directory
   path: content/post
   label: Post
   create: documents
